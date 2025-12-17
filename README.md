@@ -2,17 +2,17 @@
 
 A full-stack web application for managing equipment inventory with CRUD operations.
 
-## 📋 Features
+## Features
 
-- ✅ View all equipment in a table format
-- ✅ Add new equipment with validation
-- ✅ Edit existing equipment
-- ✅ Delete equipment with confirmation
-- ✅ Status badges with color coding
-- ✅ Responsive design for mobile devices
-- ✅ Clean, modern UI with animations
+-  View all equipment in a table format
+-  Add new equipment with validation
+-  Edit existing equipment
+-  Delete equipment with confirmation
+-  Status badges with color coding
+-  Responsive design for mobile devices
+-  Clean, modern UI with animations
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React.js
@@ -24,7 +24,7 @@ A full-stack web application for managing equipment inventory with CRUD operatio
 - Express.js
 - JSON file storage
 
-## 📁 Project Structure
+## Project Structure
 ```
 equipment-tracker/
 ├── backend/
@@ -46,7 +46,7 @@ equipment-tracker/
 └── README.md
 ```
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -99,7 +99,7 @@ equipment-tracker/
 | PUT | `/api/equipment/:id` | Update equipment |
 | DELETE | `/api/equipment/:id` | Delete equipment |
 
-## 📝 Equipment Data Model
+##  Equipment Data Model
 ```javascript
 {
   "id": 1,
@@ -110,7 +110,7 @@ equipment-tracker/
 }
 ```
 
-## ✨ Features Breakdown
+##  Features Breakdown
 
 ### Form Validation
 - Name field is required
@@ -119,9 +119,9 @@ equipment-tracker/
 - Form clears errors on input
 
 ### Status Color Coding
-- 🟢 **Active** - Green badge
-- 🔴 **Inactive** - Red badge
-- 🟡 **Under Maintenance** - Yellow badge
+-  **Active** - Green badge
+-  **Inactive** - Red badge
+-  **Under Maintenance** - Yellow badge
 
 ### User Experience
 - Confirmation dialog before deletion
@@ -130,41 +130,29 @@ equipment-tracker/
 - Smooth animations and transitions
 - Hover effects on buttons and table rows
 
-## 🧪 Testing
+##  Testing
 
 Manually tested all CRUD operations:
-- ✅ Create new equipment
-- ✅ Read/View equipment list
-- ✅ Update existing equipment
-- ✅ Delete equipment
-- ✅ Form validation
-- ✅ Error handling
+-  Create new equipment
+-  Read/View equipment list
+-  Update existing equipment
+-  Delete equipment
+-  Form validation
+-  Error handling
 
-## 🎯 Assumptions Made
+##  Assumptions Made
 
 1. **Simple Authentication**: No login/authentication required for this demo
 2. **JSON Storage**: Used JSON file instead of a full database for simplicity and quick setup
 3. **Single User**: Designed for single-user access (no concurrent editing conflicts)
 4. **ID Generation**: Using `Date.now()` for unique IDs (sufficient for demo purposes)
 
-## 🚧 Future Improvements (Given More Time)
+##  Screenshots
 
-- [ ] Add search/filter functionality
-- [ ] Add sorting by columns
-- [ ] Implement pagination for large datasets
-- [ ] Add user authentication (login/signup)
-- [ ] Connect to a real database (PostgreSQL/MongoDB)
-- [ ] Add unit and integration tests
-- [ ] Deploy to cloud platform (Heroku/Vercel)
-- [ ] Add equipment history/audit log
-- [ ] Export data to CSV/Excel
-- [ ] Add bulk operations (delete multiple items)
-- [ ] Implement real-time updates with WebSockets
-- [ ] Add dark mode toggle
+<img width="1915" height="619" alt="Screenshot 2025-12-17 214949" src="https://github.com/user-attachments/assets/aee076db-f64d-4387-a686-62cde4ade9d1" />
+<img width="1884" height="869" alt="image" src="https://github.com/user-attachments/assets/5c7f1bbd-4144-42a7-95c7-b894786a0ab4" />
 
-## 📸 Screenshots
 
-(Add screenshots here after taking them)
 
 ## 👨‍💻 Development Time
 
@@ -174,10 +162,6 @@ Manually tested all CRUD operations:
 - Frontend Development: 1.5 hours
 - Styling & Testing: 1 hour
 
-## 📧 Contact
-
-If you have any questions about this project, feel free to reach out!
-
 ---
 
-**Built with ❤️ for the internship assignment**
+** The internship assignment**
